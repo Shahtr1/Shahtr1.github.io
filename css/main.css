@@ -145,6 +145,13 @@ main {
   grid-gap: 30px;
   grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
+  .about-info .about-skills {
+    text-align: center;
+    background: rgba(73, 73, 73, 0.5); }
+    .about-info .about-skills .skills-list {
+      color: #eece1a;
+      list-style: none;
+      padding: 0; }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
@@ -243,7 +250,7 @@ main {
           color: #000; }
   .about-info .bio-image {
     position: relative;
-    bottom: 294px;
+    bottom: 211px;
     right: 36px; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
@@ -455,6 +462,8 @@ main {
     .about-info .bio-image {
       margin: auto;
       width: 70%; }
+    .about-info .about-intro {
+      font-size: 20px; }
   .projects {
     grid-template-columns: 1fr; }
   .boxes .sm1 {
